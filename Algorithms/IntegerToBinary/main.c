@@ -18,7 +18,7 @@ void bit_goster(unsigned x){
 }
 int main()
 {
-    bit_goster(17);
+    bit_goster(17); // 17 sayisini ikilik yaz.
     
 
     return 0;
