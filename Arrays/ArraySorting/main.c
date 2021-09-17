@@ -3,7 +3,7 @@
 
 
 //Englsih - Sorting the elements of an array in reverse without using another array.
-//Turkish - Baþka bir dizi kullanmadan bir dizinin elemanlarýný tersten sýralama.
+//Turkish - Baska bir dizi kullanmadan bir dizinin elemanlarini tersten siralama.
 int main()
 {
 
