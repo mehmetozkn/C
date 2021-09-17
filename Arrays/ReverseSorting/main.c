@@ -26,7 +26,7 @@ int main()
         array[i] = number;
 
     }
-    printf("\nArray : ");
+    printf("\nNormal Array : ");
 
     for(i = 0 ; i < size ; i++)
     {
@@ -93,7 +93,7 @@ int main()
 
     }
 
-    printf("\nInverted Array : ");
+    printf("\nTersten Sıralanmış Array : ");
     for(i = 0 ; i < size ; i++)
     {
 
