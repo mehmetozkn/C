@@ -23,7 +23,7 @@ int firstUnique(int dizi[])
         }
 
     }
-
+    return 1;
 
 }
 int main()
@@ -31,14 +31,6 @@ int main()
     int dizi[] = {3,3,2,5,2,4};
     int sayi = firstUnique(dizi);
     printf("First Unique Element : %d",sayi);
-
-
-
-
-
-
-
-
 
 
     return 0;
