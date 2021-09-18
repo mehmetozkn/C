@@ -1,0 +1,2 @@
+Dosyadan verileri satir satir
+okuyup ekrana yazan program.
