@@ -1,0 +1,2 @@
+Dosyadan verileri karakter karakter
+okuyup ekrana yazan program.
