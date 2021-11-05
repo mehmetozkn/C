@@ -5,7 +5,7 @@
  void diziYazdir(char *dizi);
 
 int main(void) {
-	char array[12] = "mehmet ozkan";
+	char array[12] = {'p','r','o','g','r','a','m','l','a','m','a','\0'};
     diziYazdir(array);
 
 	printf("\n");
@@ -14,10 +14,9 @@ int main(void) {
 
 void diziYazdir(char *dizi){
     int i;
-    int size = strlen(dizi);
     
-
-    for(i = 0 ; i < size ; i++) printf("%c", *(dizi+i));
+    
+    for(i = 0 ; i < *(dizi+i) !='\0'  ; i++) printf("%c", *(dizi+i));
     
     
 
