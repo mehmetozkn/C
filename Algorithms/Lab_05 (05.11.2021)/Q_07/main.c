@@ -26,6 +26,5 @@ void ters(char *str)
 
         j++;
     }
-
      for(i = 0 ; i < size ; i++) printf("%c", *(reverse+i));
 }
