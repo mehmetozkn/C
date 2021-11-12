@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void uzunlukYazdir(char *dizi[], int kelimeler);
+void uzunlukYazdir(char * const str[], int kelimeSayisi);
 
 int main(void)
 {
@@ -13,19 +13,21 @@ int main(void)
 	return EXIT_SUCCESS;
 }
 
-void uzunlukYazdir(char *str[], int kelimeSayisi)
+void uzunlukYazdir(char * const str[], int kelimeSayisi)
 {
 	int i;
 	int j;
 	int size = 0;
-	
+	char *pchar;
 	
 	for (i = 0; i < kelimeSayisi; i++)
 	{
-		printf("%s = ", (*(str+i)));
-		for (j = 0; *(*(str+i)+j) != '\0' ; j++)
+		pchar = str[i];
+		printf("%s = ", pchar);
+		for (j = 0; *pchar != '\0' ; j++)
 		{	
 			size++;
+			pchar++;
 		}
 		printf("%d",size);
 		size = 0;
